@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.logo{
+    height: 130px;
+}
+.nav-box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    padding: 15px 0;
+}
+    
+/* Redes */
+.first-box{
+    display: flex;
+    
+}
+
+.second-box{
+    position: relative;
+    right: 30px;
+    
+}
+
+/* Fin redes */
+
+/* Menu desplegable */
+.third-box{
+    display: flex;
+    align-items: center;
+}
+    
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+}
+    
+.menu-horizontal >li>a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+/* .menu-horizontal>li:hover{
+    background-color: black;
+} */
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(10, 10, 11, .70);
+    padding: 0 !important;
+    z-index: 10;
+}
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+#checkbox {
+    display: none;
+}
+#sign-two{
+    display: none;
+    width: 33px;
+}
+#checkbox:checked ~ label #sign-one {
+    display: none;
+}
+#checkbox:checked ~ label #sign-two {
+    display: block;
+}
+#checkbox:checked ~ .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none
+}
+/* Fin de menu desplegable */
+    
+/* Inicio del Main */
+/* #Main{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 10px; */
+    
+/* } */
+
+/* Inicio first section */
+.first__section{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: white;
+    align-items: center;
+}
+
+.top__div--agenda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+}   
+    
+h1{
+    position: relative;
+    color: black;
+    bottom: 110px;
+    background-color: white;
+    font-size: larger;
+    width: inherit;
+    text-align: center;
+    min-width: 800px;
+}
+
+.gif__crew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    border-radius: 100px;
+    max-width: 800px;
+}
+/* Fin first section */
+
+/* Incio Second Section */
+.second__section{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid; */
+    background-color: black;
+    border-radius: 30px;
+}
+
+.card-body{
+    background-color: black;
+    color: white;
+}
+
+.img__agenda{
+    height: 430px;
+}
+/* fin 2da section */
+
+/* Inicio 3ra section */
+
+.title__section{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: black;
+    color: white;
+    /* width: 100%; */
+    border-radius: 30px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.third__section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.img__carousel{
+    height: 500px;
+    width: 400px
+}
+
+.slide{
+    border: solid white;
+    width: 300px;
+}
+   
+footer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer a{
+    cursor: pointer;
+}
+.facebook, .instagram, .youtube, .social {
+    color: white;
+    font-size: 2rem;
+    margin: 10px 0.5rem 0 10px;
+}
+.facebook:hover {
+    color: #1778F2;
+}
+.instagram:hover {
+    color: #E1306C;
+}
+.youtube:hover{
+    color:#c4302b;
+}
+.copyright{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.prueba{
+    
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+
+}
+/* Fin del index */
+
+/* Formulario de contacto */
+
+h3{
+    text-align: center;
+    margin: 30px 30px;
+}
+.form{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form-title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 50px 0px;
+}
+.form-input{
+    font-family: inherit;
+    font-size: 10px;
+    padding: 16px 16px;
+}
+.form-input--message{
+    resize: none;
+    padding: 60px 5px;
+    }
+    
+.form-cta{
+    font-family: inherit;
+    background-color: dodgerblue ;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Fin formulario contacto */
+
+
+/* botones clickeables */
+.button{
+    font-family: inherit;
+    background-color: rgb(14, 119, 223) ;
+    color: rgb(250, 246, 246);
+    border: none;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 10px ;
+    text-decoration-line: none;
+    }
+/* Fin botones clikeables */
+
+/* Agenda */
+
+h3{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    
+}
+.agenda__section{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+.agenda__section--mid{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 60px;
+    
+    background-color: black;
+}    
+
+.card{
+    border: solid white;
+}
+
+/* Galería */
+
+h6{
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+.photo__grid--container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin: 0px 20px;
+    
+}
+
+.section__grid--container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0px 20px;
+    
+}
+
+.photo__grid{
+    height: 100%;
+    width: 100%;
+    border: solid black;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+footer{
+    flex-direction: column;
+    
+    }
+    
+    .menu-vertical{
+        right: 0;
+    }
+    
+    
+
+}
+
+
+@media screen and (max-width: 1024px) {
+.third__section{
+    flex-wrap: wrap;
+}
+
+}
+
+
+    
+
