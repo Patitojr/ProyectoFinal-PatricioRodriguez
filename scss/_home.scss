@@ -1,0 +1,91 @@
+.first__section{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: white;
+    align-items: center;
+}
+
+.top__div--agenda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+}   
+    
+.title{
+    position: relative;
+    color: black;
+    bottom: 110px;
+    background-color: white;
+    font-size: larger;
+    width: inherit;
+    text-align: center;
+    min-width: 100%;
+}
+
+.gif__crew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    border-radius: 100px;
+    max-width: 800px;
+}
+/* Fin first section */
+
+/* Incio Second Section */
+.second__section{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid; */
+    background-color: black;
+    border-radius: 30px;
+}
+
+.card-body{
+    background-color: black;
+    color: white;
+}
+
+.img__agenda{
+    height: 430px;
+}
+/* fin 2da section */
+
+/* Inicio 3ra section */
+
+.title__section{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: black;
+    color: white;
+    /* width: 100%; */
+    border-radius: 30px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.third__section{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 150px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.img__carousel{
+    height: 500px;
+    width: 400px
+}
+
+.slide{
+    border: solid white;
+    width: 300px;
+}

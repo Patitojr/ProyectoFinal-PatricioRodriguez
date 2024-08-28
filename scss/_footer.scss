@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    a{
+        cursor: pointer;
+    }
+}
+
+ 
+.facebook, .instagram, .youtube, .social {
+    color: white;
+    font-size: 2rem;
+    margin: 10px 0.5rem 0 10px;
+}
+.facebook:hover {
+    color: #1778F2;
+}
+.instagram:hover {
+    color: #E1306C;
+}
+.youtube:hover{
+    color:#c4302b;
+}
+.copyright{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.prueba{
+    
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+
+}

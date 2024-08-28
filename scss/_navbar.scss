@@ -1,0 +1,85 @@
+.logo{
+    height: 130px;
+}
+.nav-box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    padding: 15px 0;
+}
+    
+/* Redes */
+.first-box{
+    display: flex;
+    
+}
+
+
+
+/* Fin redes */
+
+/* Menu desplegable */
+.third-box{
+    display: flex;
+    justify-content: center;
+    min-width: 130px;
+}
+    
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+}
+    
+.menu-horizontal >li>a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+/* .menu-horizontal>li:hover{
+    background-color: black;
+} */
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(10, 10, 11, .70);
+    padding: 0 !important;
+    z-index: 10;
+}
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+#checkbox {
+    display: none;
+}
+#sign-two{
+    display: none;
+    width: 33px;
+}
+#checkbox:checked ~ label #sign-one {
+    display: none;
+}
+#checkbox:checked ~ label #sign-two {
+    display: block;
+}
+#checkbox:checked ~ .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical{
+    li{
+        a{
+            display: block;
+            color: white;
+            padding: 15px 15px 15px 20px;
+            text-decoration: none
+        }
+    }  
+
+}
