@@ -19,8 +19,9 @@
 }   
     
 .title{
+    background-color: $primary-color;
+    color: black;
     
-    @extend .card-body;
     position: relative;
     bottom: 110px;
     font-size: larger;
@@ -59,9 +60,8 @@
 .title__section{
     @include standard;
     margin: 100px;
-    background-color: black;
-    color: $primary-color;
-    /* width: 100%; */
+   @extend .card-body;
+    
     border-radius: 30px;
 }
 
