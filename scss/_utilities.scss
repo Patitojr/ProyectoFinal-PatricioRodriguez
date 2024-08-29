@@ -1,0 +1,6 @@
+@mixin standard($content: center) {
+    display: flex;
+    justify-content: $content;
+}
+
+$primary-color: white;

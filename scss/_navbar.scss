@@ -2,8 +2,7 @@
     height: 130px;
 }
 .nav-box{
-    display: flex;
-    justify-content: space-around;
+    @include standard ($content: space-around);
     width: 100%;
     background-color: black;
     align-items: center;

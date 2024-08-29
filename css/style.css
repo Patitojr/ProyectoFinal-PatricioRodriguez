@@ -96,6 +96,11 @@ ul {
   text-decoration: none;
 }
 
+.card-body, .title {
+  background-color: black;
+  color: white;
+}
+
 .first__section {
   display: flex;
   justify-content: center;
@@ -113,9 +118,7 @@ ul {
 
 .title {
   position: relative;
-  color: black;
   bottom: 110px;
-  background-color: white;
   font-size: larger;
   width: inherit;
   text-align: center;
@@ -140,11 +143,6 @@ ul {
   /* border: solid; */
   background-color: black;
   border-radius: 30px;
-}
-
-.card-body {
-  background-color: black;
-  color: white;
 }
 
 .img__agenda {
