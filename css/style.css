@@ -10,7 +10,7 @@ ul {
 }
 
 .logo {
-  height: 160px;
+  height: 130px;
 }
 
 .nav-box {
@@ -112,6 +112,7 @@ ul {
 .top__div--agenda {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   min-width: 100%;
 }
@@ -119,8 +120,7 @@ ul {
 .title {
   background-color: white;
   color: black;
-  position: relative;
-  bottom: 110px;
+  position: absolute;
   font-size: larger;
   width: inherit;
   text-align: center;
@@ -365,6 +365,15 @@ footer a {
   }
   .menu-vertical {
     right: 0;
+    top: 174px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    width: 100%;
+    text-align: center;
+  }
+  #checkbox:checked ~ ul.menu-vertical {
+    max-height: 500px;
   }
   .title__section {
     max-width: 100%;

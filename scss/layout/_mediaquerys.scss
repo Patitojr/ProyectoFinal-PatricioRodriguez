@@ -8,6 +8,17 @@
         
         .menu-vertical{
             right: 0;
+            top: 174px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+            width: 100%;
+            text-align: center;
+            
+        }
+
+        #checkbox:checked ~ ul.menu-vertical{
+            max-height: 500px;
         }
         
         .title__section{
